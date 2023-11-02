@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        somw forms
+    </title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data"> 
+    <label for="username"> <bold> username:</bold></label>
+    <input type="text" id="username" placeholder="enter name" minlength="6" maxlength="15" required>
+    <br>
+   
+<label for="password"> password:</label>
+<input type="text" id="password" minlength="6" maxlength="15" required required>
+<br>
+<label for="email"> email:</label>
+<input type="email" id="email" placeholder="xyz@gmail.com">
+<br>
+<label for="phone"> phone:</label>
+<input type="tel" id="phone" placeholder="1234-123-456" pattern="[0-9]{4}[0-9]{3}[0-9]{3}">
+<br>
+<label for="bday"> bday:</label>
+<input type="date" id="bday" >
+<br>
+<label for="quantity"> quantity:</label>
+<input type="number" id="quantity" min="0" max="99" value="1">
+<br>
+<label for="title"> title: :</label>
+<label for="mr."> MR.: </label>
+<input type="radio" id="mr" value="MR" name="ankit">
+<label for="MS."> MS.: </label>
+<input type="radio" id="mr" name="ankit">
+<label for="Doctor."> Doctor.:</label>
+<input type="radio" id="mr" name="ankit">
+<br>
+<label for="payment"> payment:</label>
+<select id="payment">
+<option value="visa">visa </option>
+<option value="smartcard">smartcard</option>
+<option value="giftcard">giftcard</option>
+</select>
+<br>
+<label for="subscribe">subscribe</label>
+<input type="checkbox" id="subscribe">
+<br>
+<label for="comment">comment</label>
+<textarea  id="comment" cols="30" rows="10"></textarea>
+<label for="file">file</label>
+<input type="file" id="file" accept="images/png,image/jpeg"><br>                 
